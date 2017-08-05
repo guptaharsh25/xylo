@@ -9,18 +9,20 @@
         var appurl = "{{&app_url}}";
         var staticurl = "{{&static_url}}"; //base path to your static files /static/apps/yourapp
     </script>
+   
     <link href="../static/css/xylo.css" media="screen" rel="stylesheet" type="text/css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.5/ace.js"></script>
-    <script src="../static/js/xylo.js"></script>
-    <script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.5/ace.js"></script>
+<script src="../static/js/xylo.js"></script>
+<script>
         Coder.addBasicNav();
     </script>
     <!-- End Coder Includes -->
 
     <!-- This app's includes -->
-    <link href="{{&static_url}}/css/index.css" media="screen" rel="stylesheet" type="text/css"/>
-    <script src="{{&static_url}}/js/index.js"></script>
+    <link href="../../music_boxes/views/{{&static_url}}/css/index.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="../static/css/xylo.css" rel="stylesheet" type="text/css">
+    <script src="../../music_boxes/views/{{&static_url}}/js/index.js"></script>
     <!-- End apps includes -->
 </head>
 <body>    

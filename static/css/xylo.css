@@ -7,22 +7,22 @@ body {
 	color: azure;
 	font-family: 'SanFran';
 	font-size: 48px;
-	text-align: center
+	text-align: center;
 }
 
 #foot{
 	font: bold;
 	color: azure;
 	font-family: 'SanFran';
-	font-size: 12px;
+	font-size: 16px;
 	text-align: center;
 	vertical-align: baseline;
 	position: relative;
-	margin-top: 0;
+	margin-top: 45%;
 	margin-right: auto;
 	margin-left: auto;
 	/* [disabled]top: 84%; */
-	padding-top: 50%;
+	padding-top: 0%;
 	padding-right: 0px;
 	padding-left: 0px;
 	padding-bottom: 0px;
@@ -163,5 +163,6 @@ body {
     
 @font-face{
 	font-family:'SanFran';
-	src: url(../../font/SFText-Regular.otf);
+	src: url(../../font/SFText-Regular.woff) format('woff'),
+		 url(../../font/SFText-Regular.ttf) format('truetype');
 }
